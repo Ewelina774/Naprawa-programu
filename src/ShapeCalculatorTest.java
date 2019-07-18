@@ -8,8 +8,8 @@ public class ShapeCalculatorTest {
         Triangle triangle1 = new Triangle(4,7,9);
         ShapeCalculator shapeCalculator1 = new ShapeCalculator();
 
-        double squareArea = shapeCalculator1.squareArea(square1);
-        double circleArea = shapeCalculator1.circleArea(circle1);
+        double squareArea = square1.Area();
+        double circleArea = circle1.Area();
         double trianglePerimeter = shapeCalculator1.trianglePerimeter(triangle1);
         double rectPerimeter = shapeCalculator1.rectPerimeter(rect1);
 

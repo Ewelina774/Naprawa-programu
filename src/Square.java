@@ -6,4 +6,7 @@ public class Square {
         this.a = a;
 
     }
+
+    double Area(){
+        return a*a; }
 }
